@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 4</title>
+        <style>
+            .back-button{
+                padding-top:7px;
+                padding-bottom: 7px;
+                margin-right:10px;
+                font-size: 16px;
+                margin-bottom:50px;
+                
+            }
+            .next-button{
+                padding-top:7px;
+                padding-bottom: 7px;
+                margin-left:10px;
+                font-size: 16px;
+                margin-right:90px;
+            }
+            .search-result{
+                margin-right:5px;
+                color:purple;
+            }
+            .stretchable-button{
+                background-color: green;
+                border:none;
+                color:white;
+                font-size:15px;
+                padding-top: 7px;
+                padding-bottom:7px;
+                padding-left: 20px;
+                padding-right: 20px;
+                cursor:pointer;
+                transition:padding 0.6s;
+            }
+            .stretchable-button:hover{
+                padding-top: 15px;
+                padding-bottom:15px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            .shadow-button{
+                background-color: green;
+                border:none;
+                color:white;
+                font-size: 18px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 15px;
+                padding-right: 15px;  
+                cursor:pointer;
+                box-shadow: 3px 3px 3px rgb(151, 151, 151);
+                margin-right:150px;
+                             
+            }
+            .shadow-button:active{
+                margin-top: 3px;
+                margin-left: 3px;
+                box-shadow:none;
+            }
+            .one,.two,.three{
+                background-color: green;
+                color:white;
+                border:none;
+                cursor:pointer;
+                padding-top:7px;
+                padding-bottom: 7px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 18px;
+                margin-right: 20px;
+                transition: padding 0.5s;
+                cursor:pointer;
+
+            }
+            .one:hover,.two:hover,.three:hover{
+
+                padding-left: 25px;
+                padding-right:25px;
+            }
+            
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <button class="back-button">Back</button>
+        <a class="search-result" href="https://google.com" >1</a>
+        <a class="search-result" href="https://google.com" >2</a>
+        <a class="search-result" href="https://google.com" >3</a>
+        <a class="search-result" href="https://google.com" >4</a>
+        <a class="search-result" href="https://google.com" >5</a>
+        <button class="next-button">Next</button>
+
+        <button class="stretchable-button">Stretch</button>
+         
+       <div>
+        <button class="shadow-button">Shadow</button>
+
+        <button class="one">One</button>
+        <button class="two">Two</button>
+        <button class="three">Three</button> 
+
+       </div> 
+
+    
+       
+
+    </body>
+</html>
